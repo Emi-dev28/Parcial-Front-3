@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&family=Playfair+Display:wght@500&family=Titillium+Web:wght@300&display=swap");
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 80%;
+  padding: 20px;
+  background-color: rgb(57, 57, 227);
+  font-family: "Titillium Web", sans-serif;
+  font-size: 1.2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  font-weight: 500;
+  color: white;
+  gap: 0.5rem;
+  box-sizing: border-box;
+  border: 2px solid navy;
+  padding: 20px;
+  border-radius: 10px;
+}
+form {
+  margin: auto;
+  width: 400px;
+}
+.labels {
+  padding: 0.5em;
+  font-size: medium;
+  font-weight: 500;
+  font-family: "Titillium Web", sans-serif;
+}
+.btn-primary {
+  padding: 10px 20px;
+  background-color: white;
+  color: navy;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+form input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 7px;
+  font-size: inherit;
+  border: 1px solid navy;
+  padding: 10px;
+  
+}
